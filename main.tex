@@ -1,0 +1,192 @@
+% !TEX TS-program = xelatex% !TEX encoding = UTF-8
+\documentclass{aas}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{ccaption}
+\usepackage{booktabs} % 做三线表的上下两条粗线用
+
+\setcounter{page}{1}
+
+\begin{document}
+
+\cntitle{{\hei\qquad 《自动化学报》稿件加工样本}
+	
+\thanks{收稿日期\
+XXXX-XX-XX
+\quad
+录用日期\
+XXXX-XX-XX}
+
+\thanks{Manuscript received
+Month Date, Year;
+accepted
+Month Date, Year}
+
+\thanks{国家重点基础研究发展计划(973计划) (XXXXXX),国家高技术研究发展计划(863计划) (XXXXXX),国家自然科学基金(XXXXXX)资助}
+
+\thanks{Supported by National Basic Research Program of China (973 Program) (XXXXXX),
+National High Technology Research and Development Program of China (863 Program) (XXXXXX),
+National Natural Science Foundation of China (XXXXXX)}
+
+\thanks{本文责任编委\ XXX}
+
+\thanks{Recommended by Associate Editor BIAN Wei}
+
+\thanks{1.
+中国科学院自动化研究所高技术创新中心\ 北京\ 100190
+\quad 2.
+中国科学院自动化研究所模式识别国家重点实验室\ 北京\ 100190
+\quad 3.
+中国科学院自动化研究所《国际自动化与计算杂志》编辑部\ 北京\ 100190
+\quad 4. 中国科学院自动化研究所《自动化学报(英文版)》编辑部\ 北京\ 100190
+\quad 5. 中国科学院自动化研究所《自动化学报》编辑部\ 北京\ 100190}
+
+\thanks{1.
+Hi-Tech Innovation Center, Institute of Automation, Chinese Academy of Sciences, Beijing
+100190
+\quad 2.
+National Laboratory of Pattern Recognition,
+Institute of Automation, Chinese Academy of Sciences, Beijing 100190
+\quad 3.
+Editorial
+Office of {\sl International Journal of Automation and Computing},
+Institute of Automation, Chinese Academy of Sciences, Beijing 100190
+\quad 4. Editorial
+Office of {\sl IEEE/CAA Journal of Automatica Sinica (JAS)}, Institute of Automation,
+Chinese Academy of Sciences, Beijing 100190
+\quad 5. Editorial
+Office of {\sl Acta Automatica Sinica}, Institute of Automation,
+Chinese Academy of Sciences, Beijing 100190
+}}
+
+\cnauthor{尚书林$^{\scriptscriptstyle1,\,2}$
+\hspace{1em}
+左年明$^{\scriptscriptstyle2}$
+\hspace{1em}
+陈培颖$^{\scriptscriptstyle3}$
+\hspace{1em}
+欧\ 彦$^{\scriptscriptstyle4,\,5}$
+\hspace{1em}
+张\ 哲$^{\scriptscriptstyle4,\,5}$
+}
+
+\cnabstract{中文摘要字数应为文章总字数的5\,\%左右,一般不超过200字.摘要应涵盖全文.摘要内容包括研究目的、方法、结果等,注意不是标题的罗列,能独立成文,不能出现公式号和文献号.}
+
+\cnkeyword{关键词1,关键词2,关键词3,关键词4,关键词5}
+
+\doi{10.16383/j.aas.20xx.cxxxxxx}
+
+\entitle{Preparation of Papers for Acta Automatica Sinica}
+
+\enauthor{SHANG Shu-Lin$^{1,\,2}$
+\qquad
+ZUO Nian-Ming$^2$
+\qquad
+CHEN Pei-Ying$^3$
+\qquad
+OU Yan$^{4,\,5}$
+\qquad
+ZHANG Zhe$^{4,\,5}$
+}
+
+\enabstract{An abstract should be a concise summary of the
+significant items in the paper, including the results and
+conclusions. It should be about 5\,\% of the length of the article,
+but not more than 200 words. Define all nonstandard symbols,
+abbreviations and acronyms used in the abstract. Do not cite
+references in the abstract.}
+
+\enkeyword{Keyword 1, keyword 2, keyword 3, keyword 4, keyword 5}
+
+\cnaddress{尚书林,左年明,陈培颖,欧彦,张哲.
+《自动化学报》稿件加工样本. 自动化学报, 201X,
+\textbf{XX}(X): X$-$X}
+
+\enaddress{Shang Shu-Lin, Zuo Nian-Ming, Chen Pei-Ying, Ou Yan, Zhang Zhe.
+Preparation of papers for Acta Automatica Sinica.
+\textsl{Acta Automatica Sinica}, 201X, \textbf{XX}(X): X$-$X}
+
+\maketitle
+
+\pagestyle{aasheadings}
+
+\input{sections/introduction.tex}
+\input{sections/methods.tex}
+\input{sections/conclusion.tex}
+
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+
+\begin{biography}[Image/ssl.eps]
+\noindent{\hei
+尚书林
+}\quad
+中国科学院自动化研究所博士研究生.
+2002年获得北京师范大学信息学院电子系学士学位.
+主要研究方向为图像与视频压缩技术.\\E-mail: aas\_editor@ia.ac.cn
+
+\noindent({\bf
+SHANG Shu-Lin
+}\quad
+Ph.\,D. candidate at the
+Institute of Automation, Chinese Academy of Sciences. He received
+his bachelor degree from Beijing Normal University in 2002. His research
+interest covers image compression and video coding.)
+\end{biography}
+
+\begin{biography}[Image/nmzuo.eps]
+\noindent{\hei
+左年明
+}\quad
+中国科学院自动化研究所博士研究生.
+2002年获得山东大学数学学院学士学位.
+主要研究方向为医学图像处理, CT图像重建.\\E-mail: aas\_editor@ia.ac.cn
+
+\noindent({\bf
+ZUO Nian-Ming
+}\quad
+Ph.\,D. candidate at the
+Institute of Automation, Chinese Academy of Sciences. He received
+his bachelor degree from Shandong University in 2002. His research
+interest covers medical CT image reconstruction and medical image
+processing.)
+\end{biography}
+
+\begin{biographynophoto}
+\noindent{\hei 陈培颖}\quad 《国际自动化与计算杂志》编辑部责任编辑.\\E-mail: peiying.chen@ia.ac.cn
+
+\noindent({\bf CHEN Pei-Ying}\quad Managing editor at the Editorial Office of
+{\sl International Journal of Automation and Computing}.)
+\end{biographynophoto}
+
+\begin{biographynophoto}
+\noindent{\hei 欧\hskip2.5mm彦}\quad 《自动化学报(英文版)》编辑部责任编辑.\\E-mail: yan.ou@ia.ac.cn
+
+\noindent({\bf OU Yan}\quad Managing editor at the Editorial Office of
+{\sl IEEE/CAA Journal of Automatica Sinica (JAS)}.)
+\end{biographynophoto}
+
+\begin{biography}[Image/zz.eps]
+\noindent{\hei
+张\hskip2.5mm哲
+}\quad
+《国际自动化与计算杂志》与《自动化学报》编辑部技术编辑. 2006年获得北京工业大学电控学院自动化系学士学位.
+本文通信作者.\\E-mail: zhe.zhang@ia.ac.cn
+
+\noindent({\bf
+ZHANG Zhe
+}\quad
+Copy-editor at the Editorial Office of
+{\sl International Journal of Automation and Computing}, and {\sl
+Acta Automatica Sinica}. He received his bachelor degree from Beijing
+University of Technology in 2006. Corresponding author of this paper.)
+\end{biography}
+
+\end{document}
