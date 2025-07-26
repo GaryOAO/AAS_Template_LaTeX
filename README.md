@@ -23,8 +23,8 @@
 2.  **克隆仓库**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/GaryOAO/AAS_Template_LaTeX.git
+    cd AAS_Template_LaTeX
     ```
 
 3.  **编辑内容**
