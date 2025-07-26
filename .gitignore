@@ -1,0 +1,53 @@
+# LaTeX compilation artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+*.xml
+*.gz
+*.pdf
+*.xdv
+*.ilg
+*.ind
+*.idx
+*.glg
+*.glo
+*.gls
+*.acn
+*.acr
+*.alg
+*.ist
+*.xdy
+*.bpt
+*.brf
+*.nlo
+*.nls
+*.bak
+*.old
+*.tmp
+
+# Backup files
+template_backup.tex
+
+# Image conversion artifacts (if applicable, adjust as needed)
+Image/*-eps-converted-to.pdf
+images/*-eps-converted-to.pdf # Added for the new images directory
+
+# Editor specific files
+*.swp
+*.bak
+*~ 
+.#*

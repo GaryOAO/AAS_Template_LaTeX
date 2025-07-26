@@ -25,7 +25,7 @@
 \RequirePackage{ifthen}
 \usepackage{flushend}
 \RequirePackage{ctex}
-\RequirePackage{picins}
+\RequirePackage{sty/picins}
 \RequirePackage{calc}
 %
 %
@@ -297,7 +297,7 @@
 %%-------- Set the begin and end method for class -----%%
 \AtBeginDocument{%
    \flushend
-   \input{aas.cfg}%
+   \input{sty/aas.cfg}%
    \captiondelim{ } % 把图标题中缺省的分隔符 ``:''改为空
    \captionnamefont{\small}%
    \captiontitlefont{\small}%
